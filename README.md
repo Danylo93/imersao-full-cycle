@@ -3,12 +3,13 @@
 ## delivery-app
 
 Tecnologias:
-NestJS (backend);
-Go Lang (microserviço);
-ReactJS (frontend)
-Apacha Kafka (comunicação)
-Docker (deploy);
-Kubernets (deploy)
+ - NestJS (backend);
+ - Go Lang (microserviço);
+ -  ReactJS (frontend)
+ - Apacha Kafka (comunicação)
+ - Docker (deploy);
+ - Kubernets (deploy)
+
 Para executar toda a aplicação, é necessário seguir uma ordem no momento de subir os containers. A ordem é: Kafka, simulator, backend e front.
 
 
