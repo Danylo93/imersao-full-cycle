@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: simulator
-          image: dan1993/imersao-full-cicle-simulator
+          image: dan1993/code-delivery-simulator
           volumeMounts:
             - name: simulator-volume
               mountPath: /go/src/.env

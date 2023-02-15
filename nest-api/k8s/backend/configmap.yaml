@@ -4,9 +4,9 @@ metadata:
   name: backend-conf
 data:
   env: |
-    MONGO_DSN=mongodb://root:root@mongodb/nest?authSource=admin
+    MONGO_DSN=mongodb://root:root@db/nest?authSource=admin
     KAFKA_CLIENT_ID=code-delivery
     KAFKA_BROKER=pkc-6ojv2.us-west4.gcp.confluent.cloud:9092
     KAFKA_CONSUMER_GROUP_ID=code-delivery
-    KAFKA_SASL_USERNAME=HOFOMGC2OV2HQH7X
-    KAFKA_SASL_PASSWORD=QBIQcPXtRCYkVAqu9VvPiMIvcR7MsHyBRWnnxZCNCttoIKfM3bxASUzwpfCG0Jww
+    KAFKA_SASL_USERNAME=7MT5XM37KT3LREGH
+    KAFKA_SASL_PASSWORD=8zrqvISVRZ3HRP0zLgUgq40zAtZTUsUn8r8PXbere9fHLRqa1757CNTIPbSuisUQ

@@ -11,10 +11,10 @@ services:
       - .:/home/node/app
     extra_hosts:
       - "host.docker.internal:172.17.0.1"
+    networks:
+      - imersao-12
     depends_on:
       - db
-    extra_hosts:
-      - "host.docker.internal:172.17.0.1"
   
   db:
     image: mongo:4.4.4
@@ -26,6 +26,8 @@ services:
       - MONGO_INITDB_ROOT_USERNAME=root
       - MONGO_INITDB_ROOT_PASSWORD=root
       - MONGO_INITDB_DATABASE=nest
+    networks:
+      - imersao-12
   
   mongo-express:
     image: mongo-express
@@ -40,3 +42,9 @@ services:
       - ME_CONFIG_MONGODB_ADMINPASSWORD=root
     depends_on:
       - db
+    networks:
+      - imersao-12
+
+networks:
+  imersao-12:
+    name: imersao-12

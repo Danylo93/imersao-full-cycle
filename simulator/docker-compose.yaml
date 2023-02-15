@@ -8,3 +8,10 @@ services:
       - .:/go/src/
     extra_hosts:
       - "host.docker.internal:172.17.0.1"
+    networks:
+      - imersao-12
+
+networks:
+  imersao-12:
+    name: imersao-12
+    

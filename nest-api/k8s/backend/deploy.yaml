@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: dan1993/imersao-full-cycle-backend:latest
+          image: dan1993/code-delivery-backend
           ports:
             - containerPort: 3000
           volumeMounts:
